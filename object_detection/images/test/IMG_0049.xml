@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>IMG_0049.jpg</filename>
+	<path>C:\tensorflow1\models\research\object_detection\images\test\IMG_0049.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cheese</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>87</xmin>
+			<ymin>118</ymin>
+			<xmax>762</xmax>
+			<ymax>830</ymax>
+		</bndbox>
+	</object>
+</annotation>

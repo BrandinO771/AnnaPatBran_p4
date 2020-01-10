@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>IMG_1450.jpg</filename>
+	<path>C:\tensorflow1\models\research\object_detection\images\train\IMG_1450.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>318</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hamburger_buns</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>18</xmin>
+			<ymin>4</ymin>
+			<xmax>396</xmax>
+			<ymax>316</ymax>
+		</bndbox>
+	</object>
+</annotation>
