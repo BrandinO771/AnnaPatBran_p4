@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>IMG_0088.jpg</filename>
+	<path>C:\tensorflow1\models\research\object_detection\images\train\IMG_0088.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cheese</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>293</ymin>
+			<xmax>568</xmax>
+			<ymax>645</ymax>
+		</bndbox>
+	</object>
+</annotation>

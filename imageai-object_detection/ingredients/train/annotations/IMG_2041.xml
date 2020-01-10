@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>IMG_2041.jpg</filename>
+	<path>C:\tensorflow1\models\research\object_detection\images\train\IMG_2041.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>870</width>
+		<height>1390</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bacon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>59</xmin>
+			<ymin>149</ymin>
+			<xmax>851</xmax>
+			<ymax>1262</ymax>
+		</bndbox>
+	</object>
+</annotation>

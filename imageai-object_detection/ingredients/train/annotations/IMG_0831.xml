@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>IMG_0831.jpg</filename>
+	<path>C:\tensorflow1\models\research\object_detection\images\train\IMG_0831.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>561</width>
+		<height>471</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ground_beef</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>86</xmin>
+			<ymin>170</ymin>
+			<xmax>466</xmax>
+			<ymax>367</ymax>
+		</bndbox>
+	</object>
+</annotation>

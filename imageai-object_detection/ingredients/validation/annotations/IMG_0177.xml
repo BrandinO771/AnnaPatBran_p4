@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>IMG_0177.jpg</filename>
+	<path>C:\tensorflow1\models\research\object_detection\images\test\IMG_0177.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>540</width>
+		<height>361</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ground_beef</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>39</ymin>
+			<xmax>478</xmax>
+			<ymax>332</ymax>
+		</bndbox>
+	</object>
+</annotation>
