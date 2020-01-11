@@ -212,35 +212,35 @@ list_builder2();
 
 
 //////////////////////// AF: Search for recipes ///////////////////////
-var items = ['apple', 'banana', 'chicken']
-var url = `/recipes/${items}`/// API ADDRESS USE COUNTRY NAME AS QUERY 
-                    
-d3.json(url).then(function(response) {
-  var info = response ;
-  console.log("Data:", response);
+function populateRecipes(item_list) {
+  var url = `/recipes/${item_list}`/// API ADDRESS USE COUNTRY NAME AS QUERY 
+                      
+  d3.json(url).then(function(response) {
+    var info = response ;
+    console.log("Data:", response);
 
-  for (var i = 0; i < info.length; i++) {
-    var recipeContainer = d3.select("#recipes");
-    var recipe = info[i]["recipe"];
-    var calories = info[i]["calories"];
-    var url = info[i]["url"];
-    var imageUrl = info[i]["image_url"];
+    for (var i = 0; i < info.length; i++) {
+      var recipeContainer = d3.select("#recipes");
+      var recipe = info[i]["recipe"];
+      var calories = info[i]["calories"];
+      var url = info[i]["url"];
+      var imageUrl = info[i]["image_url"];
 
-    // console.log(recipe);
-    // console.log(calories);
-    // console.log(url);
-    // console.log(imageUrl);
+      // console.log(recipe);
+      // console.log(calories);
+      // console.log(url);
+      // console.log(imageUrl);
 
-    recipeContainer.append("div").attr("class","col-md-4").html(
-      `<div class="card text-center" style="width: 18rem; height: 32rem;">
-          <img class="card-img-top" src="${imageUrl}" alt="${recipe}">
-          <div class="card-body">
-            <h5 class="card-title">${recipe}</h5>
-            <p class="card-text">Calories: ${Math.round(calories)}</p>
-            <a href="${url}" target="_blank" class="btn btn-primary">Let's Make It!</a>
-          </div>
-        </div>`)
+      recipeContainer.append("div").attr("class","col-md-4").html(
+        `<div class="card text-center" style="width: 18rem; height: 32rem;">
+            <img class="card-img-top" src="${imageUrl}" alt="${recipe}">
+            <div class="card-body">
+              <h5 class="card-title">${recipe}</h5>
+              <p class="card-text">Calories: ${Math.round(calories)}</p>
+              <a href="${url}" target="_blank" class="btn btn-primary">Let's Make It!</a>
+            </div>
+          </div>`)
 
-  }
-});
-
+    }
+  });
+};
