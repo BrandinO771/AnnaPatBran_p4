@@ -1,0 +1,9 @@
+
+pat  if your running your first model  name it :  pat_yolo1  and put in this folder 
+
+
+if you run your second model name it :    pat_yolo2   and put in this folder 
+
+
+the code is already set to look for  pat_yolo2   and the matching config file is being called   (the orig config is also in there named like config1 ) 
+
