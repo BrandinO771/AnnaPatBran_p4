@@ -14,3 +14,8 @@ This was a proof of concept where we only trained on ingredients for making a ha
 We use Flask to run our webserver, external recipe API requests, and our ML image detection model. 
 We used Javascript and D3 to process API requests to Flask, populate web content such as 
 check boxes, and recipe cards, and to listen to button events. 
+
+<img src = "https://github.com/BrandinO771/Brandino771.github.io/blob/master/assets/food_snap.jpg">
+
+<img style ="height:100px; width:100px;"  src="https://github.com/BrandinO771/AnnaPatBran_p4/blob/master/website/Food_Snap_WebFiles_v3/images/image1_detect_result.jpg">
+
