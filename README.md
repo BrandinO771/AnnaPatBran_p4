@@ -3,8 +3,11 @@ grp p 4
 
 <h1> Machine Learning Image Detection - Cooking App </h1>
 
-<h4> 1.) In a webpage the user uploads a picture of food ingredients, our machine learning model analyzes the image 
-and returns all of the ingredients it identifies.</h4> 
+<h4> Project Name: Food Snap App </h4> 
+<h4> Project Participants: Anna Favin, Brandon Steinke, Patrick Hennessey </h4>
+<h3> What does it do? </h3>
+<h4> 1.) Via a web page the user uploads a picture of food ingredients (for example an image food items placed on kitchen counter) our machine learning model analyzes the image 
+and returns all of the ingredients identified.</h4> 
 <h4> 2.) The user then confirms the ingredients detected. </h4> 
 <h4> 3.) Then we provide a list of recipes that the user can prepare based on their ingredients! </h4>
 
@@ -26,4 +29,4 @@ This was a rapid prototype sprint project completed with part-time involvement i
 
 <img style ="height:100px; width:100px;"  src="https://github.com/BrandinO771/AnnaPatBran_p4/blob/master/website/Food_Snap_WebFiles_v3/images/image1_detect_result.jpg">
 
-<h5> Project Participants: Anna Favin, Brandon Steinke, Patrick Hennessey </h5>
+
