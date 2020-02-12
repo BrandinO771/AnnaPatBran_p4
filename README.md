@@ -1,7 +1,7 @@
 # AnnaPatBran_p4
 grp p 4
 
-<h1> Machine Learning Image Detection - Cooking App </h1>
+<h1> Machine Learning - Image Detection - Cooking App </h1>
 
 <h4> Project Name: Food Snap App </h4> 
 <h4> Project Participants: Anna Favin, Brandon Steinke, Patrick Hennessey </h4>
